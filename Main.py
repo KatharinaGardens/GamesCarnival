@@ -8,6 +8,7 @@ def show_games():
     print("1. Hangman")
     print("2. Tic-Tac-Toe")
     print("3. Yahtzee")
+    print("4. Mastermind")
     print("E. Exit")
 
 def main():
@@ -35,6 +36,13 @@ def main():
             case '3':
                 try:
                     exec(open("Yahtzee.py").read())
+                except ExecInterrupt:
+                    pass
+                time.sleep(1)
+                print("\nWelcome back to the game center!")
+            case '4':
+                try:
+                    exec(open("Mastermind.py").read())
                 except ExecInterrupt:
                     pass
                 time.sleep(1)
