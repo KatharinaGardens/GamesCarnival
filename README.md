@@ -6,6 +6,7 @@ Currently, the following games are available:
 1. Hangman
 2. Tic-Tac-Toe
 3. Yahtzee
+4. Mastermind
 
 The scores for Yahtzee are saved in a file, allowing you to track your highest scores.
 
